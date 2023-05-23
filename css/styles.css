@@ -196,8 +196,10 @@ padding-bottom: 120px;
 }
 
 
-
 .feature{
+	display: flex;
+}
+.feature-item{
 	width: calc((100% - 72px) / 4);
 }
 
@@ -223,11 +225,18 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 background-color: var(--body-color);
-
+margin-bottom: 72px;
 padding-bottom: 120px;
-
 }
 
+.works-item{
+	display: flex;
+	gap: 24px;
+}
+
+.works-communication{
+	width: calc((100% - 48px) / 3);
+}
 
 .section-team{
 	background-color: #F4F4FD;
