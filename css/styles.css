@@ -195,6 +195,8 @@ padding-bottom: 120px;
 	gap: 24px;
 }
 
+
+
 .feature{
 	width: calc((100% - 72px) / 4);
 }
@@ -221,7 +223,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 background-color: var(--body-color);
-padding-top: 456px;
+
 padding-bottom: 120px;
 
 }
