@@ -136,7 +136,6 @@ color: var(--color-ocean);
 
 
 
-
 .hero {
     background-color: var(--color-grey);
 	font-style: normal;
@@ -191,12 +190,22 @@ padding-top: 120px;
 padding-bottom: 120px;
 	  }
 
+.hiden-header{
+	display: flex;
+	gap: 24px;
+}
+
+.feature{
+	width: calc((100% - 72px) / 4);
+}
+
 .feature-header{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--color-navy-blue);
+	margin-bottom: 8px;
 }
 
 .section-works{
@@ -269,6 +278,7 @@ padding: 120px 0;
 
 .image-name{
 	padding: 32px 16px;
+
 }
 
 .crew-name{
@@ -354,7 +364,7 @@ margin-bottom: 8px;
 
 .filter-button{
 	list-style: none;
-	
+	padding-top: 96px; padding-bottom: 120px;
 }
 .filter-item{
 	text-decoration: none;
