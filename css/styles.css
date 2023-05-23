@@ -42,6 +42,7 @@ img{
 	padding-right: 15px;
 	margin: 0 auto;
 	outline: 2px solid;
+	
 }
 
 .container header{
@@ -117,6 +118,11 @@ text-decoration:none;
 .address{
 	font-style: normal;
 	letter-spacing: 0.02;
+	display: flex;
+	padding-top: 24px;
+padding-right: 40px;
+padding-bottom: 24px;
+padding-left: 940px;
 }
 
  
@@ -173,6 +179,8 @@ color: var(--color-ocean);
   color: var(--body-color);
 }
 
+
+
 .address-link{
 	font-size: 16px;
 	line-height: 24px;
@@ -180,10 +188,7 @@ color: var(--color-ocean);
 	color: #434455;
 	}
 
-	  .section-feature{
-padding-top: 120px;
-padding-bottom: 120px;
-	  }
+	  
 
 .feature-header{
 	font-weight: 500;
@@ -193,10 +198,7 @@ padding-bottom: 120px;
 	color: var(--color-navy-blue);
 }
 
-.section-works{
-	padding-top: 456px;
-	padding-bottom: 120px;
-}
+
 
 .items-header{
 font-size: 36px;
