@@ -50,8 +50,9 @@ img{
 	outline: 2px solid;
 }
 
-.container header{
-
+.container.header{
+display: flex;
+padding: 0 15px;
 }
 
 .nav{
@@ -136,7 +137,7 @@ color: var(--color-ocean);
 
 
 
-.hero {
+.section-hero {
     background-color: var(--color-grey);
 	font-style: normal;
 	font-size: 56px;
@@ -213,7 +214,7 @@ padding-bottom: 120px;
 }
 
 .section-works{
-	padding-top: 456px;
+
 	padding-bottom: 120px;
 }
 
@@ -227,6 +228,19 @@ color: #2E2F42;
 background-color: var(--body-color);
 margin-bottom: 72px;
 padding-bottom: 120px;
+}
+
+.visually-hidden{
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .works-item{
@@ -350,7 +364,11 @@ margin-bottom: 8px;
 	}
 
 
+
+
 /* Portfolio */
+
+
 
 	.button-clasik{
 		font-weight: 500;
