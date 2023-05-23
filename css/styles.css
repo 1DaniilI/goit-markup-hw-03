@@ -220,8 +220,19 @@ padding-bottom: 120px;
 
 .section-team{
 	background-color: #F4F4FD;
+padding: 120px 0;
 }
 
+.item-header{
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-navy-blue);
+	background-color: var(--color-cloud);
+	margin-bottom: 72px;
+}
 
 .crew-item{
 	background-color: #FFFFFF;
@@ -245,17 +256,19 @@ padding-bottom: 120px;
 
 .crew-list{
 	background-color: #FFFFFF;
-	margin-bottom: 8px;
+	display: flex;
+	gap: 24px;
 }
 
-.item-header{
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--color-navy-blue);
-background-color: var(--color-cloud);
+
+.crew-item{
+	width: calc((100% - 72px) / 4);
+	border-radius: 0px 0px 4px 4px;
+
+}
+
+.image-name{
+	padding: 32px 16px;
 }
 
 .crew-name{
