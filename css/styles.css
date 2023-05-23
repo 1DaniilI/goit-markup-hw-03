@@ -37,6 +37,28 @@ padding: 0;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
+	
+}
+
+.container header{
+
+	display: flex;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+
+}
+
+.nav-list{
+	display: flex;
+	gap: 40px;
+	padding: 24px 0;
+}
+
+.address-items{
+
 }
 
 .list {
@@ -50,6 +72,7 @@ padding: 0;
 .header{
 	padding-top: 24px;
     background-color: var(--color-white);
+	border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo{
@@ -61,7 +84,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
 text-decoration: none;
-
+margin-right: 76px;
 }
 
 .header-logo span{ 
@@ -102,6 +125,9 @@ color: var(--color-ocean);
 color: var(--color-ocean);
 }
 
+
+
+
 .hero {
     background-color: var(--color-grey);
 	font-style: normal;
@@ -109,7 +135,8 @@ color: var(--color-ocean);
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
-color: var(--body-color);
+	color: var(--body-color);
+	padding: 188px 0;
 }
 
 .hero-header{
@@ -117,6 +144,7 @@ color: var(--body-color);
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	margin-bottom: 48px;
+	max-width: 496px;
 }
 .header-button{
 	font-size: 16px;
@@ -126,6 +154,11 @@ color: var(--body-color);
 	color: var(--body-color);
 	background: var(--color-iris);
 	cursor: pointer;
+	display: block;
+	min-width: 169px;
+	height: 56px;
+	border: none;
+	border-radius: 4px;
 	}
 
 .header-button:hover,
