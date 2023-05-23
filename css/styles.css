@@ -32,16 +32,19 @@ margin: 0;
 padding: 0;
 }
 
+img{
+	display: block;
+}
+
 .container {
 	width: 1158px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	
+	outline: 2px solid;
 }
 
 .container header{
-
 	display: flex;
 }
 
@@ -99,6 +102,8 @@ color: var(--color-grey);
 
 .nav-items{
 	list-style: none;
+	display: flex;
+	gap: 40px;
 }
 .nav-link{
 font-weight: 500;
@@ -145,6 +150,7 @@ color: var(--color-ocean);
 	letter-spacing: 0.02em;
 	margin-bottom: 48px;
 	max-width: 496px;
+	
 }
 .header-button{
 	font-size: 16px;
@@ -199,9 +205,10 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-background-color: var(--color-cloud);
-padding-top: 120px;
-padding-bottom: 72px;
+background-color: var(--body-color);
+padding-top: 456px;
+padding-bottom: 120px;
+
 }
 
 
@@ -232,6 +239,7 @@ padding-bottom: 72px;
 
 .crew-list{
 	background-color: #FFFFFF;
+	margin-bottom: 8px;
 }
 
 .item-header{
