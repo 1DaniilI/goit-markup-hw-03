@@ -390,12 +390,22 @@ margin-bottom: 8px;
 	  background-color: var(--color-ocean);
 	  color: var(--body-color);
 	}
+	.filter{
+		padding-top: 96px; padding-bottom: 120px;
+	}
+
 
 .filter-button{
 	list-style: none;
-	padding-top: 96px; padding-bottom: 120px;
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 72px;
 }
 .filter-item{
+	padding: 12px 24px;
+
+	border: 1px solid #e7e9fc
 	text-decoration: none;
 }
 
