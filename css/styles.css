@@ -73,6 +73,10 @@ padding: 0 15px;
 	align-items: center;
 }
 
+.address-item{
+	padding: 24px 0;
+}
+
 .list {
 	list-style: none;
 }
@@ -315,7 +319,7 @@ padding: 120px 0;
 
 .image-name{
 	padding: 32px 16px;
-
+	border: 1px solid #e7e9fc;
 }
 
 .crew-name{
@@ -442,10 +446,12 @@ margin-bottom: 8px;
 }
 .filter-item{
 	padding: 12px 24px;
-	border: 1px solid #e7e9fc
-
+	border-radius: 4px;
+	
 }
-
+.button-clasik{
+	
+}
 
 .servises-name{
 	font-family: "Roboto", sans-serif;
@@ -454,6 +460,7 @@ margin-bottom: 8px;
 	line-height: 1.2;
 	color: var(--color-navy-blue);
 	letter-spacing: 0.02em;
+	margin-bottom: 8px;
 
 }
 .portfolio-desk{
