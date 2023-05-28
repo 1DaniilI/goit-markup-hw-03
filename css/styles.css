@@ -117,6 +117,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 text-decoration:none;
+display: flex;
+  gap: 30px;
 }
 
 .header-address{
@@ -191,7 +193,7 @@ color: var(--color-ocean);
 
 .address-link{
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 	}
@@ -357,8 +359,9 @@ margin-bottom: 8px;
 	}
 
 .footer{
-	background-color:#2e2f42;
-	padding: 100px 0;
+	background-color: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo span{
@@ -371,6 +374,8 @@ margin-bottom: 8px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: #F4F4FD;
+	margin-top: 16px;
+  max-width: 264px;
 	}
 
 
@@ -390,6 +395,7 @@ margin-bottom: 8px;
 		cursor: pointer;
 	}
 
+	
 
 .list{
 	list-style: none;
@@ -414,9 +420,8 @@ margin-bottom: 8px;
 }
 .filter-item{
 	padding: 12px 24px;
-
 	border: 1px solid #e7e9fc
-	text-decoration: none;
+
 }
 
 
