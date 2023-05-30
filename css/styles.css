@@ -80,7 +80,7 @@ padding: 0 15px;
 
 .list {
 	list-style: none;
-	gap: 40px;
+	
 }
 
 .link {
@@ -229,6 +229,7 @@ padding-bottom: 120px;
 
 .feature{
 	display: flex;
+	gap: 24px;
 }
 .feature-item{
 	width: calc((100% - 72px) / 4);
@@ -401,6 +402,10 @@ margin-bottom: 8px;
 
 /* Portfolio */
 
+
+.container-portfolio{
+	
+}
 
 
 	.button-clasik{
