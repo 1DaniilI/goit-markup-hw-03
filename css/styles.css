@@ -226,6 +226,7 @@ padding-bottom: 120px;
 
 .feature{
 	display: flex;
+	gap: 24px;
 }
 .feature-item{
 	width: calc((100% - 72px) / 4);
