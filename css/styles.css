@@ -332,6 +332,7 @@ padding: 120px 0;
 .image-name{
 	padding: 32px 16px;
 	border: 1px solid #e7e9fc;
+	border-top: none;
 }
 
 .crew-name{
@@ -422,7 +423,7 @@ margin-bottom: 8px;
 	flex-wrap: wrap;
 	column-gap: 24px;
 	row-gap: 48px;
-
+	
 }
 
 
@@ -455,11 +456,11 @@ margin-bottom: 8px;
 }
 .filter-item{
 	padding: 12px 24px;
-	border-radius: 4px;
+	
 	
 }
 .button-clasik{
-	
+	border-radius: 4px;
 }
 
 .servises-name{
