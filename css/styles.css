@@ -37,7 +37,6 @@ img{
 }
 
 .header{
-	padding-top: 24px;
     background-color: var(--color-white);
 	border-bottom: 1px solid #e7e9fc;
 }
@@ -47,12 +46,12 @@ img{
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	outline: 2px solid;
+
 }
 
 .container.header{
 display: flex;
-padding: 0 15px;
+
 }
 
 .nav{
@@ -130,19 +129,12 @@ padding: 24px 0;
 
 
 
-
-
-
-
-
-
 .header-address{
 	display: flex;
   align-items: center;
   gap: 40px;
 	font-style: normal;
 	letter-spacing: 0.02;
-	font-style: normal;
 	margin-left: auto;
 }
 
@@ -255,7 +247,6 @@ text-transform: capitalize;
 color: #2E2F42;
 background-color: var(--body-color);
 margin-bottom: 72px;
-padding-bottom: 120px;
 }
 
 .visually-hidden{
@@ -342,7 +333,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 background-color: #FFFFFF;
-padding: 32px 16px;
 text-align: center;
 margin-bottom: 8px;
 }
@@ -360,7 +350,7 @@ margin-bottom: 8px;
 	text-transform: uppercase;
 	color: var(--color-grey);
 	display: inline-block;
-	margin-bottom: 16px;
+
 	}
 
 	.footer-logo span{ 
@@ -372,7 +362,6 @@ margin-bottom: 8px;
 	text-transform: uppercase;
 	color: var(--color-iris);
 	display: inline-block;
-	margin-bottom: 16px;
 	}
 
 .footer{
@@ -455,8 +444,7 @@ margin-bottom: 8px;
 	margin-bottom: 72px;
 }
 .filter-item{
-	padding: 12px 24px;
-	
+
 	
 }
 .button-clasik{
