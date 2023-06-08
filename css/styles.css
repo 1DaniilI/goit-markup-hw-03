@@ -65,8 +65,14 @@ display: flex;
 .nav-list{
 	display: flex;
 	gap: 40px;
+
 }
 
+.nav-items{
+	list-style: none;
+	display: flex;
+	gap: 40px;
+}
 
 .address-items{
 	display: flex;
@@ -114,11 +120,7 @@ color: var(--color-grey);
 
 }
 
-.nav-items{
-	list-style: none;
-	display: flex;
-	gap: 40px;
-}
+
 
 .nav-link{
 font-weight: 500;
