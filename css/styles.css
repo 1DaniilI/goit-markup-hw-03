@@ -347,7 +347,7 @@ margin-bottom: 8px;
 	text-transform: uppercase;
 	color: var(--color-grey);
 	display: inline-block;
-	
+	margin-bottom: 16px;
 	}
 
 	.footer-logo-span{ 
@@ -361,17 +361,12 @@ margin-bottom: 8px;
 	padding-bottom: 100px;
 }
 
-.footer-logo span{
-	color: #f4f4fd;
-}
-
 
 .footer-text{
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--footer-text-color);
 	color: #F4F4FD;
-	margin-top: 16px;
   max-width: 264px;
 	}
 
