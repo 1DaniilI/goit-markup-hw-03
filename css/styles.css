@@ -350,22 +350,15 @@ margin-bottom: 8px;
 	
 	}
 
-	.footer-logo span{ 
-	font-family: 'Raleway';
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: var(--color-iris);
-	display: inline-block;
+	.footer-logo-span{ 
+		color: #f4f4fd;
 	
 	}
 
 .footer{
 	background-color: var(--navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .footer-logo span{
@@ -374,9 +367,9 @@ margin-bottom: 8px;
 
 
 .footer-text{
-	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--footer-text-color);
 	color: #F4F4FD;
 	margin-top: 16px;
   max-width: 264px;
